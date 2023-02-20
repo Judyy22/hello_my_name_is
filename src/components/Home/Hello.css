@@ -1,0 +1,69 @@
+.homemain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 65vh;
+}
+.textbox {
+    width: 30%;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.first-textbox {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.randomBox {
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: black;
+    padding: 5px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.glassicon {
+    margin: 15px;
+    font-size: 22px;
+}
+.randomText {
+    font-size: 22px;
+    position: relative;
+    left: 20px;
+}
+
+.randomText::after {
+    content: "";
+    margin-left: 0.4rem;
+    border-right: 2px solid #777;
+    animation: cursor 0.9s infinite steps(2);
+}
+
+@keyframes cursor {
+    from {
+        border-right: 2px solid #fff;
+    }
+    to {
+        border-right: 2px solid #d1d1d1;
+    }
+}
+
+.developer {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.name {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}

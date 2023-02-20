@@ -1,4 +1,7 @@
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
+import "./Hello.css";
 
 const textArray = [
     "끊임없이 성장하는",
@@ -43,14 +46,18 @@ const Hello = () => {
 
     return (
         <div className="homemain">
-            <>
-                <h1>Hi, I am</h1>
+            <div className="textbox">
+                <div className="first-textbox">Hi, I am</div>
                 <div className="randomBox">
-                    <div className="Box-cursor">{showTitle}</div>
+                    <div className="randomText">{showTitle}</div>
+                    <FontAwesomeIcon
+                        icon={faMagnifyingGlass}
+                        className="glassicon"
+                    />
                 </div>
                 <div className="developer">Developer</div>
-                <div>안녕하세요, 이승희 입니다.</div>
-            </>
+                <div className="name">안녕하세요, 이승희 입니다.</div>
+            </div>
         </div>
     );
 };
