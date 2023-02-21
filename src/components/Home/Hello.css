@@ -29,14 +29,15 @@
     justify-content: space-between;
     align-items: center;
 }
-.glassicon {
-    margin: 15px;
-    font-size: 1.5em;
-}
 .randomText {
     font-size: 1.3em;
     position: relative;
     left: 20px;
+}
+
+.glassicon {
+    margin: 15px;
+    font-size: 1.5em;
 }
 
 .randomText::after {
@@ -56,7 +57,7 @@
 }
 
 .developer {
-    font-size: 1.5em;
+    font-size: 1.6em;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -66,4 +67,33 @@
     font-size: 1.5em;
     display: flex;
     justify-content: center;
+}
+
+@media screen {
+    .textbox {
+        width: 65vw;
+    }
+    .first-textbox {
+        font-size: 1.6em;
+    }
+    .randomBox {
+        border: 1px solid white;
+        padding: 2px;
+        height: 30px;
+        display: flex;
+    }
+    .randomText {
+        font-size: 1em;
+    }
+    .glassicon {
+        margin: 15px;
+        font-size: 1em;
+    }
+    .developer {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+    .name {
+        font-size: 1.2em;
+    }
 }
