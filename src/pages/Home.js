@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect, useRef } from "react";
 import Dots from "../components/Dots";
 import Main from "../components/Home/Main";
+import Aboutme from "./Aboutme";
 
 const DIVIDER_HEIGHT = 0;
 
@@ -119,7 +120,9 @@ const Home = () => {
             <div className="inner ">
                 <Main />
             </div>
-            <div className="inner">2</div>
+            <div className="inner">
+                <Aboutme />
+            </div>
             <div className="inner">3</div>
             <div className="inner">4</div>
         </div>
