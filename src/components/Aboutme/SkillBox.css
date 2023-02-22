@@ -1,0 +1,14 @@
+.box {
+    background-color: blue;
+    border: 1px solid pink;
+    width: 40vw;
+}
+.box-name {
+    font-size: 30px;
+    text-align: center;
+}
+.img-box {
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+}
