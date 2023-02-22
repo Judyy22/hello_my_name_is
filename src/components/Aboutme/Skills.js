@@ -8,14 +8,31 @@ const Skills = () => {
     const dbpic = ["oracle", "mysql"];
     const workspace = ["vscode", "eclipse", "developer", "workbench"];
     const design = ["illustrator", "figma"];
+    const fronttext = ["fronttext", "2번째줄"];
+    const backtext = ["backtext"];
+    const dbtext = ["dbtext"];
+    const worktext = ["workspace text"];
+    const designtext = ["design text"];
     return (
         <div className="allskills">
             <div className="skills">
-                <SkillBox name="Front-End" picture={frontpic} />
-                <SkillBox name="Back-End" picture={backpic} />
-                <SkillBox name="DB" picture={dbpic} />
-                <SkillBox name="WorkSpace" picture={workspace} />
-                <SkillBox name="Design Tool" picture={design} />
+                <SkillBox
+                    name="Front-End"
+                    picture={frontpic}
+                    text={fronttext}
+                />
+                <SkillBox name="Back-End" picture={backpic} text={backtext} />
+                <SkillBox name="DB" picture={dbpic} text={dbtext} />
+                <SkillBox
+                    name="WorkSpace"
+                    picture={workspace}
+                    text={worktext}
+                />
+                <SkillBox
+                    name="Design Tool"
+                    picture={design}
+                    text={designtext}
+                />
             </div>
         </div>
     );

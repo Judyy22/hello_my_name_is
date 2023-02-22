@@ -6,12 +6,13 @@ import "./SkillBox.css";
 const SkillBox = (props) => {
     const name = props.name;
     const image = props.picture;
+    const text = props.text;
     const [menuActive, setMenuActive] = useState(false);
 
     console.log("menuactive", menuActive);
 
     return (
-        <div className="box container">
+        <div className="box">
             <div className="item front">
                 <div className="mobilename">
                     <div className="box-name">{name}</div>
@@ -41,7 +42,13 @@ const SkillBox = (props) => {
                     })}
                 </div>
             </div>
-            <div className="item back">뒷면</div>
+            <div className="item back">
+                <div className="texts">
+                    {text.map((item) => {
+                        return <div>- {item}</div>;
+                    })}
+                </div>
+            </div>
         </div>
     );
 };
