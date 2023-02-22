@@ -1,14 +1,58 @@
 .box {
-    background-color: blue;
-    border: 1px solid pink;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
     width: 40vw;
 }
 .box-name {
+    margin: 10px;
     font-size: 30px;
     text-align: center;
 }
+.bars {
+    display: none;
+}
 .img-box {
+    margin: 20px 10px;
     display: flex;
     justify-content: space-around;
-    background-color: red;
+    align-items: center;
+}
+.img-box-mobile {
+    display: none;
+}
+@media (max-width: 920px) {
+    .box {
+        width: 70vw;
+    }
+    .box-name {
+        margin: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .mobilename {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 5%;
+    }
+    .img-box {
+        display: none;
+    }
+    .bars {
+        display: block;
+        font-size: 25px;
+    }
+    .xmark:hover {
+        transition: all 0.5s linear;
+        transform: rotate(180deg);
+    }
+    .img-box-mobile {
+        padding: 20px 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 }

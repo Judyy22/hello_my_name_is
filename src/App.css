@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
 
 body {
     margin: 0;
     overflow-y: hidden;
-    font-family: "Nanum Gothic", sans-serif;
+    /* font-family: "Nanum Gothic", sans-serif;
+     */
+    font-family: "Do Hyeon", sans-serif;
     color: white;
 }
 
