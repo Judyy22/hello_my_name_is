@@ -1,4 +1,5 @@
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import SkillBox from "./SkillBox";
 import "./Skills.css";
 
@@ -14,27 +15,47 @@ const Skills = () => {
     const worktext = ["workspace text"];
     const designtext = ["design text"];
     return (
-        <div className="allskills">
-            <div className="skills">
-                <SkillBox
-                    name="Front-End"
-                    picture={frontpic}
-                    text={fronttext}
-                />
-                <SkillBox name="Back-End" picture={backpic} text={backtext} />
-                <SkillBox name="DB" picture={dbpic} text={dbtext} />
-                <SkillBox
-                    name="WorkSpace"
-                    picture={workspace}
-                    text={worktext}
-                />
+        <Container>
+            {/* < className="allskills">
+                < className="skills"> */}
+            <Row md={3}>
+                <Col>
+                    <SkillBox
+                        name="Front-End"
+                        picture={frontpic}
+                        text={fronttext}
+                    />
+                </Col>
+                <Col>
+                    <SkillBox
+                        name="Back-End"
+                        picture={backpic}
+                        text={backtext}
+                    />
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <SkillBox name="DB" picture={dbpic} text={dbtext} />
+                </Col>
+                <Col>
+                    <SkillBox
+                        name="WorkSpace"
+                        picture={workspace}
+                        text={worktext}
+                    />
+                </Col>
+            </Row>
+            <Row>
                 <SkillBox
                     name="Design Tool"
                     picture={design}
                     text={designtext}
                 />
-            </div>
-        </div>
+            </Row>
+            {/* </>
+            </div> */}
+        </Container>
     );
 };
 

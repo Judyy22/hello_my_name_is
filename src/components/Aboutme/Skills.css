@@ -2,9 +2,10 @@
     height: 50vh;
 }
 .skills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    /* display: flex;
+    /* width: 1265px; */
+    /* flex-wrap: wrap;
+    justify-content: center;  */
 }
 @media (max-width: 920px) {
     .allskills {
