@@ -35,11 +35,21 @@ const SkillBox = (props) => {
                     })}
                 </div>
                 <div className={menuActive ? "img-box-mobile" : "img-box-none"}>
-                    {image.map((item) => {
-                        return (
-                            <img src={`pictures/${item}.png`} width="60vw" />
-                        );
-                    })}
+                    <div>
+                        {image.map((item) => {
+                            return (
+                                <img
+                                    src={`pictures/${item}.png`}
+                                    width="60vw"
+                                />
+                            );
+                        })}
+                    </div>
+                    <div>
+                        {text.map((item) => {
+                            return <div>- {item}</div>;
+                        })}
+                    </div>
                 </div>
             </div>
             <div className="item back">

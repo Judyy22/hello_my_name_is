@@ -3,17 +3,18 @@
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
-    /* width: 45vw; */
+    width: 40vw;
 }
 @media (min-width: 921px) {
     .box {
         perspective: 2000px;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     .box .item {
-        /* width: 40vw; */
-        height: 15vh;
+        width: 30vw;
+        height: 13vh;
         background-color: white;
         border-radius: 10px;
         backface-visibility: hidden;
@@ -32,11 +33,16 @@
     }
     .box:hover .item.back {
         transform: rotateY(0deg) scale(1.2) !important;
-
-        background-color: rgba(234, 234, 234, 0.7);
+        background-color: rgb(231, 230, 230);
+        width: 85%;
     }
     .box:hover {
         z-index: 1;
+    }
+    .item {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -49,7 +55,7 @@
     display: none;
 }
 .img-box {
-    margin: 20px 10px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -73,7 +79,7 @@
         padding: 10px;
     }
     .box:hover {
-        background-color: rgba(234, 234, 234, 0.7);
+        background-color: rgb(231, 230, 230);
     }
     .back {
         display: none;
@@ -104,9 +110,14 @@
         display: none;
     }
     .img-box-mobile {
-        padding: 20px 10px;
+        padding: 0px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-box-mobile > div:first-child {
         display: flex;
         justify-content: space-around;
-        align-items: center;
+        margin-bottom: 10px;
     }
 }

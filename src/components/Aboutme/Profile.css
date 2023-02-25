@@ -1,0 +1,26 @@
+.pictures {
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    padding: 50px 0px;
+}
+.myimage {
+    background-color: white;
+    height: 30vh;
+    margin: 20px;
+    border-radius: 30px;
+}
+.information {
+    width: 50%;
+}
+.info {
+    display: flex;
+}
+.info > div:nth-child(1) {
+    margin-right: 10px;
+}
+.picture {
+    height: 30vh;
+}
