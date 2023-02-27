@@ -1,0 +1,25 @@
+.card {
+    width: 25vw;
+}
+.card-img-top {
+    height: 20vh;
+}
+.cardskill {
+    width: 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.col {
+    display: flex;
+    justify-content: center;
+}
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.projectname {
+    font-size: 1.7em;
+}

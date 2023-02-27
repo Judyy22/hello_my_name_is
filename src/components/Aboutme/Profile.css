@@ -63,3 +63,42 @@
     justify-content: center;
     margin: auto;
 }
+@media (max-width: 920px) {
+    .history-info {
+        display: block;
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 10px;
+        width: 85%;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    .mobile-history {
+        display: flex;
+        justify-content: center;
+        border: 2px solid white;
+    }
+    .history-line {
+        width: 100%;
+    }
+    .education-box {
+        border: none;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .academy-box {
+        border: none;
+        padding: 0;
+    }
+    .first-info:before {
+        display: none;
+    }
+    .second-info {
+        display: none;
+    }
+    .rightbox {
+        border: none;
+        border-radius: 10px;
+        padding: 0;
+    }
+}

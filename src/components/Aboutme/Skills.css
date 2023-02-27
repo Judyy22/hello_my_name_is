@@ -7,6 +7,7 @@
     height: 50vh;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 @media (max-width: 920px) {
     .allskills {
@@ -16,5 +17,6 @@
     }
     .skills {
         display: block;
+        width: 80%;
     }
 }
