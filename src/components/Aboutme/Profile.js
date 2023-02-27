@@ -1,38 +1,46 @@
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faUser } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "./Profile.css";
 
 const Profile = () => {
     return (
-        <div className="pictures">
-            <img src="pictures/none_image.png" className="myimage" />
-            <div className="information">
-                <div className="info myname">
-                    <div>이승희</div>
-                    <div>Seung Hui Lee</div>
-                </div>
-                <div className="info">
-                    <div>
-                        <FontAwesomeIcon icon={faUser} />
+        <div className="historybox">
+            <div className="history">About ME</div>
+            <div className="history-info">
+                <div className="history-line">
+                    <div className="education-box">
+                        <div className="title">학력</div>
+                        <div className="first-info">
+                            <div>2019.02</div>
+                            <div>부산과학기술대학교 졸업</div>
+                        </div>
+                        <div className="second-info">항공전자통신과</div>
+                        <div className="first-info">
+                            <div>2021.02</div>
+                            <div>동아대학교 졸업</div>
+                        </div>
+                        <div className="second-info">전자공학과</div>
                     </div>
-                    <div>1998.12.25</div>
-                </div>
-                <div className="info">
-                    <div>
-                        <FontAwesomeIcon icon={faEnvelope} />
+                    <div className="academy-box">
+                        <div className="title">교육</div>
+                        <div className="first-info">
+                            <div>2022.06 ~ 2022.12</div>
+                            <div>부산IT 교육센터</div>
+                        </div>
+                        <div className="second-info">
+                            블록체인 기반 핀테크 및 보안 플랫폼 개발
+                            (자바/리액트)
+                        </div>
                     </div>
-                    <div>gkfajsl1225@naver.com</div>
                 </div>
-                <div className="info">
-                    <div>
-                        <FontAwesomeIcon icon={faGithub} />
+                <div className="history-line rightbox">
+                    <div className="title">사회생활</div>
+                    <div className="first-info">
+                        <div>2021.06 ~ 2022.06</div>
+                        <div>한국미래에너지</div>
                     </div>
-                    <div>https://github.com/judyy22</div>
+                    <div className="second-info">H/W 개발부</div>
                 </div>
             </div>
-            <img src="pictures/profile.png" className="picture" />
         </div>
     );
 };

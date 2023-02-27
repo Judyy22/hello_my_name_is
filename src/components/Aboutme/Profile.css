@@ -1,26 +1,65 @@
-.pictures {
-    background-color: red;
+.historybox {
+    height: 40vh;
+}
+.history {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 30px;
+}
+.history-info {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    height: 50vh;
-    padding: 50px 0px;
 }
-.myimage {
-    background-color: white;
-    height: 30vh;
-    margin: 20px;
-    border-radius: 30px;
+.history-line {
+    width: 410px;
+    margin: 0 auto;
 }
-.information {
-    width: 50%;
+.education-box {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 6%;
 }
-.info {
+.academy-box {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 25px;
+}
+.title {
+    text-align: center;
+    font-size: 1.3em;
+}
+.first-info {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+    clear: both;
+    position: relative;
+    margin: 5px 0px;
 }
-.info > div:nth-child(1) {
-    margin-right: 10px;
+.first-info:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    width: 50%;
+    border-bottom: 1px dashed white;
 }
-.picture {
-    height: 30vh;
+.second-info {
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 0.8em;
+    text-align: end;
+    margin: 5px 0px;
+}
+.rightbox {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 25px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
 }

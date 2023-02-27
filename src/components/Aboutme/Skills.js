@@ -38,8 +38,7 @@ const Skills = () => {
     ];
     const designtext = [
         "기본적인 illustrator 툴 사용",
-        "웹 디자인시 Figma 사용",
-        "Figma 프로토타입 사용",
+        "피그마를 활용하여 UI/UX 디자인과 프로토타입 제작",
     ];
     return (
         <div>

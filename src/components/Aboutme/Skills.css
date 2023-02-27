@@ -1,11 +1,12 @@
 .allskills {
     height: 50vh;
+    display: flex;
 }
 .skills {
     display: flex;
     height: 50vh;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 @media (max-width: 920px) {
     .allskills {
