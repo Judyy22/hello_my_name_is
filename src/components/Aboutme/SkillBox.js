@@ -9,8 +9,6 @@ const SkillBox = (props) => {
     const text = props.text;
     const [menuActive, setMenuActive] = useState(false);
 
-    console.log("menuactive", menuActive);
-
     return (
         <div className="box">
             <div className="item front">

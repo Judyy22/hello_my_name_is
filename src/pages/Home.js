@@ -4,6 +4,7 @@ import Dots from "../components/Dots";
 import Main from "../components/Home/Main";
 import Aboutme from "./Aboutme";
 import Project from "./Project";
+import Contact from "./Contact";
 
 const DIVIDER_HEIGHT = 0;
 
@@ -127,7 +128,9 @@ const Home = () => {
             <div className="inner">
                 <Project />
             </div>
-            <div className="inner">4</div>
+            <div className="inner">
+                <Contact />
+            </div>
         </div>
     );
 };
