@@ -1,9 +1,17 @@
 import React, { useState } from "react";
 import Projectslide from "../components/Projects/Projectslide";
+import "./Project.css";
+import Button from "../components/Projects/Button";
+
 const Project = () => {
     return (
-        <div style={{ height: "100vh", display: "flex" }}>
-            <Projectslide />
+        <div>
+            <div className="PC">
+                <Projectslide />
+            </div>
+            <div>
+                <Button />
+            </div>
         </div>
     );
 };

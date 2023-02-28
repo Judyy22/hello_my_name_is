@@ -1,9 +1,13 @@
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Projectslide.css";
 const Projectslide = () => {
+    const [open, setOpen] = useState(false);
+    const onClick = () => {
+        setOpen(true);
+    };
     return (
         <div className="cardbox">
             <Container>
