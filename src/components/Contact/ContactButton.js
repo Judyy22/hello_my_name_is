@@ -9,7 +9,7 @@ const ContactButton = () => {
     };
     return (
         <div className="contactbutton">
-            <button class="learn-more" onClick={onClick}>
+            <button className="learn-more" onClick={onClick}>
                 Contact me
             </button>
             {open && (

@@ -1,9 +1,11 @@
 import React, { useState } from "react";
-import "./Project.css";
-import Contactmodal from "../components/Contact/Contactmodal";
-
+import Projectslide from "../components/Projects/Projectslide";
 const Project = () => {
-    return <div>project</div>;
+    return (
+        <div style={{ height: "100vh", display: "flex" }}>
+            <Projectslide />
+        </div>
+    );
 };
 
 export default Project;

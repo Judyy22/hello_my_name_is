@@ -12,7 +12,6 @@
         align-items: center;
     }
     .box .item {
-        /* width: 30vw; */
         width: 30vw;
         height: 13vh;
         background-color: white;
@@ -85,8 +84,8 @@
         display: none;
     }
     .box-name {
-        margin: 10px;
-        font-size: 20px;
+        margin: 5px;
+        font-size: 15px;
         text-align: center;
     }
     .mobilename {
@@ -97,7 +96,7 @@
     }
     .bars {
         display: block;
-        font-size: 25px;
+        font-size: 15px;
     }
     .xmark:hover {
         transition: all 0.5s linear;

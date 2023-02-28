@@ -59,6 +59,15 @@ const modal = ({ onClose }) => {
                                 Download Resume
                             </a>
                         </div>
+                        <div className="contents-list">
+                            <FontAwesomeIcon
+                                icon={faFile}
+                                className="iconmargin"
+                            />
+                            <a href="downloadFile/portfolio.pdf" download>
+                                Download PDF Portfolio
+                            </a>
+                        </div>
                     </div>
                     <button onClick={handleClose} className="button">
                         Close

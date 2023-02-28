@@ -64,6 +64,14 @@
     margin: auto;
 }
 @media (max-width: 920px) {
+    .historybox {
+        padding-top: 25px;
+        height: 45vh;
+    }
+    .history {
+        padding: 5px;
+        font-size: 25px;
+    }
     .history-info {
         display: block;
         text-align: center;
@@ -72,6 +80,13 @@
         width: 85%;
         margin: 0 auto;
         padding: 0 10px;
+    }
+    .title {
+        text-align: center;
+        font-size: 18px;
+    }
+    .first-info {
+        font-size: 15px;
     }
     .mobile-history {
         display: flex;

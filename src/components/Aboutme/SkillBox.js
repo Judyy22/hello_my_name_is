@@ -8,6 +8,10 @@ const SkillBox = (props) => {
     const image = props.picture;
     const text = props.text;
     const [menuActive, setMenuActive] = useState(false);
+    const [click, setClick] = useState(false);
+    const mouse = () => {
+        setClick(!click);
+    };
 
     return (
         <div className="box">
@@ -38,15 +42,22 @@ const SkillBox = (props) => {
                             return (
                                 <img
                                     src={`pictures/${item}.png`}
-                                    width="60vw"
+                                    width="40vw"
+                                    onClick={mouse}
                                 />
                             );
                         })}
                     </div>
-                    <div>
-                        {text.map((item) => {
-                            return <div>- {item}</div>;
-                        })}
+                    <div className="mobile-text">
+                        {click ? (
+                            <div>
+                                {text.map((item) => {
+                                    return <div>- {item}</div>;
+                                })}
+                            </div>
+                        ) : (
+                            ""
+                        )}
                     </div>
                 </div>
             </div>
