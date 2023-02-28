@@ -9,7 +9,7 @@ const Project = () => {
             <div className="PC">
                 <Projectslide />
             </div>
-            <div>
+            <div className="mobile">
                 <Button />
             </div>
         </div>

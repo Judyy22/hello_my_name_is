@@ -2,8 +2,14 @@
     height: 100vh;
     display: flex;
 }
+.mobile {
+    display: none;
+}
 @media (max-width: 920px) {
     .PC {
         display: none;
+    }
+    .mobile {
+        display: block;
     }
 }
