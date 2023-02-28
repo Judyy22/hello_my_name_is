@@ -4,7 +4,7 @@
 .history {
     text-align: center;
     font-size: 2.5em;
-    margin: 30px;
+    padding: 30px;
 }
 .history-info {
     display: flex;

@@ -1,18 +1,9 @@
 import React, { useState } from "react";
-import Carasoul from "../components/Projects/Carasoul";
 import "./Project.css";
+import Contactmodal from "../components/Contact/Contactmodal";
 
 const Project = () => {
-    return (
-        <div className="allprojects">
-            <>
-                <div className="projecttitle">Project</div>
-                <div>
-                    <Carasoul />
-                </div>
-            </>
-        </div>
-    );
+    return <div>project</div>;
 };
 
 export default Project;

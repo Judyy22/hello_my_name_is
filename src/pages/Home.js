@@ -24,7 +24,7 @@ const Home = () => {
                     //현재 1페이지
                     console.log("현재 1페이지, down");
                     outerDivRef.current.scrollTo({
-                        top: pageHeight + DIVIDER_HEIGHT,
+                        top: pageHeight,
                         left: 0,
                         behavior: "smooth",
                     });
@@ -36,7 +36,7 @@ const Home = () => {
                     //현재 2페이지
                     console.log("현재 2페이지, down");
                     outerDivRef.current.scrollTo({
-                        top: pageHeight * 2 + DIVIDER_HEIGHT * 2,
+                        top: pageHeight * 2,
                         left: 0,
                         behavior: "smooth",
                     });
@@ -48,7 +48,7 @@ const Home = () => {
                     //현재 3페이지
                     console.log("현재 3페이지, down");
                     outerDivRef.current.scrollTo({
-                        top: pageHeight * 3 + DIVIDER_HEIGHT * 3,
+                        top: pageHeight * 3,
                         left: 0,
                         behavior: "smooth",
                     });
@@ -57,7 +57,7 @@ const Home = () => {
                     // 현재 4페이지
                     console.log("현재 4페이지, down");
                     outerDivRef.current.scrollTo({
-                        top: pageHeight * 3 + DIVIDER_HEIGHT * 3,
+                        // top: pageHeight,
                         left: 0,
                         behavior: "smooth",
                     });
